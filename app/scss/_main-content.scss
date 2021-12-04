@@ -1,0 +1,22 @@
+
+@use 'components/card-shadow' as cardShadow;
+.card{
+    
+    width: 80%;
+    margin:1rem auto; 
+    max-width: 800px;
+    box-shadow: cardShadow.$cardShadow;
+    
+
+}
+article p{
+    padding: 2rem;
+    font-size: 1.2rem;
+    
+}
+.main-container{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

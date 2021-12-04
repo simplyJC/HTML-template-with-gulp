@@ -1,0 +1,14 @@
+@use 'abstracts' as a;
+
+body{
+    
+    box-sizing: border-box;
+    font-family: a.$font-stack;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0; 
+}
+

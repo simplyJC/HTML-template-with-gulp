@@ -1,0 +1,14 @@
+@use 'abstracts';
+
+footer{
+    background: abstracts.$blue;
+    position:fixed;
+    bottom:0;
+    width: 100%;
+}
+footer p{
+    text-align: center;
+    margin: 1rem;
+    
+
+}
